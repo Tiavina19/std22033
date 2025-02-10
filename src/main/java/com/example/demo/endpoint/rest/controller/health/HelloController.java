@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @AllArgsConstructor
-public class PingController {
+public class HelloController {
 
   @GetMapping("/hello")
   public String hello() {
